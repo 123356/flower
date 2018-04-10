@@ -99,7 +99,17 @@ right: 1.0rem;
 	padding-left: 0.2rem;
 	flex-shrink: 0;
 
-	
+}
+.list{
+	height: 17.15rem;
+	width: 10.80rem;
+	display: flex;
+	overflow-y: scroll;
+	flex-wrap: wrap;
+	padding-top: 0.2rem;
+	padding-right:0.2rem;
+	padding-left: 0.2rem;
+	flex-shrink: 0;
 }
 /* .content_part{
 	width: 100%;
@@ -122,6 +132,7 @@ right: 1.0rem;
 	float: left;
 	margin-right: 0.2rem;
 	margin-bottom: 0.2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 
 
 }
@@ -225,11 +236,11 @@ float: left;
 	color: #FF621F;
 }
 .xq_{
-	height: 1.45rem;
+	height: 1.44rem;
 	width: 100%;
 	background-color: #F8F8F8;
 	position: relative ;
-	line-height: 1.45rem;
+	line-height: 1.44rem;
 	text-align: center;
 	color: #727272;
 	font-size: 0.40rem;
@@ -238,7 +249,7 @@ float: left;
 .xq__{
 	border-bottom: 2px solid #DEE0E0;
 }
-.xq_ a{
+.xq_ a,.listTitle a{
 	font-family: iconfont;
 	position: absolute;
 	left: 0.6rem;
@@ -477,14 +488,22 @@ margin-top: 0.22rem;
 	margin: 0 auto;
 	text-align: center;
 }
-input{
+.register{
+	width: 100%;
+	height: 4.80rem;
+	color: #f5f5f5;
+	font-size: 0.3rem;
+	margin: 0 auto;
+	text-align: center;
+}
+input,.register input{
 	width: 9.92rem;
 	height: 1.42rem;
 	border: 0;
 	border-radius: 0.05rem;
 	font-family: iconfont;
 	outline: none;
-	color: #f5f5f5;
+	color: #ff0036;
 	margin-bottom: 0.2rem;
 	padding-left: 0.3rem;
 }
@@ -776,8 +795,112 @@ float: left;
 	float: right;
 	margin-right: 0.44rem;
 }
+/* register */
+.change{
+	position: relative;
+}
+.get{
+	position: absolute;
+	width: 3rem;
+	right: 0;
+	top: 0;
+	height: 1.42rem;
+	line-height: 1.42rem;
+	font-size: 0.4rem;
+	color: #ff0033;
+
+}
+.get span{
+	margin-right: 0.2rem;
+}
+/* 个人资料 */
+.resourse{
+	width: 100vw;
+	height: 1.44rem;
+	line-height: 1.44rem;
+	text-align: center;
+	font-size: 0.38rem;
+	background-color: #f8f8f8;
+	border-bottom: 0.01rem solid #b0b0b0;
+}
+.favicon{
+	width: 100vw;
+	height: 1.95rem;
+	background-color: #fff;
+	color: #b0b0b0;
+	
+
+}
+.faviconLeft{
+	float: left;
+	margin: 0.70rem 0.7rem;
+	font-size: 0.4rem;
+
+
+}
+.faviconL{
+	float: left;
+	margin: 0.5rem 0.2rem;
+	font-size: 0.4rem;
+}
+.faviconRight img{
+	width: 1.52rem;
+	height: 1.52rem;
+	display: block;
+	float: left;
+	margin-top: 0.2rem;
+	margin-right: 0.3rem;
+}
+.faviconRight span{
+	display: block;
+	float: left;
+	font-size: 0.6rem;
+	margin: 0.6rem 0.2rem;
+
+}
+
+.faviconR span{
+	display: block;
+	float: left;
+	font-size: 0.4rem;
+	margin: 0.5rem 0.1rem;
+
+}
+.faviconRight,.faviconR{
+	float: right;
 
 	
+}
+.resourcePart{
+	width: 100vw;
+	height: 4.31rem;
+	border-bottom: 0.01rem solid #b0b0b0;
+	margin-top: 0.24rem;
+	background-color: #fff;
+	color: #b0b0b0;
+}
+.RPart{
+	height: 33%;
+	width: 10.30rem;
+	float: right;
+	border-bottom: 0.01rem solid #b0b0b0;
+}
+.RPart_remove{
+	border: none;
+}
+/* 分类列表	 */
+
+.listTitle{
+	width: 100vw;
+	height: 1.44rem;
+	background-color: #f8f8f8;
+	line-height: 1.44rem;
+	text-align: center;
+	color: #7F7F7F;
+	border-bottom: 0.01rem solid #DEE0E0;
+	position: relative;
+	font-size: 0.4rem;
+}
 	
 
 

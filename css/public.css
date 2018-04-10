@@ -7,6 +7,7 @@
 	list-style: none;
 	-webkit-tab-highlight-color: rgba(0, 0, 0, 0);/* 清楚背景有时会点出来的蓝色 */
 	box-sizing: border-box;
+	text-decoration: none;
 }
 img{
 	width: 100%;
